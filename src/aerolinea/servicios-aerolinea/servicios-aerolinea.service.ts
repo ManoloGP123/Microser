@@ -13,7 +13,7 @@ export class ServiciosAerolineaService {
     }
     insertar(aerolinea: AerolienaDTO) {
         const emp = {
-          id: uuidV4(),
+          ID_aerolinea: uuidV4(),
           ...aerolinea,
         };
         this.aerolinea.push(emp);
